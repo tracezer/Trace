@@ -1,29 +1,3 @@
-put the images too 
-I can't generate real screenshots of your app — those have to come from an actual device or emulator. But I can make sure the README doesn't show broken image links until you add them.
-
-Option A — Keep placeholders (recommended): leave the table as-is. The docs/screenshots/ folder doesn't exist yet, so GitHub will show broken image icons. Once you have the app running, capture screenshots and drop them in with these exact names:
-
-docs/screenshots/player.png
-docs/screenshots/home.png
-docs/screenshots/search.png
-docs/screenshots/library.png
-docs/screenshots/together.png
-docs/screenshots/settings.png
-Then commit and push — the README will update automatically.
-
-Option B — Remove the screenshots section for now: if you'd rather not have broken images on your repo, I can delete the screenshots table from the README. Just say the word.
-
-How to take the screenshots (when you have a device/emulator):
-
-Run the app.
-Navigate to each screen.
-Press the device's screenshot button (Power + Volume Down on most Android devices), or use Android Studio's "Take Screenshot" in the device window.
-Rename and copy them into docs/screenshots/.
-Want me to do Option B, or would you like me to create empty placeholder PNG files so the links at least resolve?
-
-remove the details of vivi player from readme.md
-All VIVI references are removed from README.md. Done.
-
 <div align="center">
   <a href="https://vivimusic.mkmdevilmi.workers.dev/">
     <img src="assets/bannerofficial.png" alt="VIVI Music Banner" style="display: block; margin: 0 auto; max-width: 100%"/>
@@ -350,11 +324,14 @@ All VIVI references are removed from README.md. Done.
   <p align="center"><strong>Made with ❤️ for music lovers everywhere</strong></p>
   <p align="center">⭐ Star this repo if you enjoy VIVI Music!</p>
 </div>
+this is the readme of vivi player i want mine to be this typw with images.
 Done — README.md is now in VIVI's style (centered banner, badges, two-column About table, screenshots table, feature tables, support box, Android Auto, contributing, privacy, disclaimer, license, community table, credits, footer) but branded for TRACE and listing only TRACE's real features.
 
 The screenshots table points at docs/screenshots/*.png — drop your captures there with those names and they'll render. All CHANGE-ME/TRACE links need your real GitHub username once you create the repo.
 
-change e
+remove the name vivi only TRACE should be seen
+Done — no "Vivi" references remain in README.md. Only TRACE is mentioned.
+
 README.md
 <div align="center">
 
