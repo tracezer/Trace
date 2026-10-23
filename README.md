@@ -1,18 +1,36 @@
 <div align="center">
-  ## 🎵 About TRACE
 
-TRACE is a focused, cinematic music player for Android. It reuses the proven
-streaming and playback engine behind [Vivi Music](https://github.com/vivizzz007/vivi-music)
-— InnerTube discovery, Media3/ExoPlayer, background playback, queue persistence —
-and replaces everything you *see* with a calm, dark-first interface: a navigation
-shell, a theme studio, and a player built around the artwork.
+# TRACE
 
-Search real music, stream it ad-free, share a room and listen together, build
-playlists that actually work, and let the UI tint itself from whatever is playing.
+### Cinematic music, quietly.
 
-🎵 Your music, your aesthetic — only with TRACE.
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0 license">
+</p>
 
-## 🛡️ 100% Privacy-First
+<p><i>A dark-first Android music player built around artwork, atmosphere, and effortless playback.</i></p>
+
+<p>
+  <a href="#-features">Features</a> ·
+  <a href="#-screenshots">Screenshots</a> ·
+  <a href="#-architecture">Architecture</a> ·
+  <a href="#-building">Building</a> ·
+  <a href="#-license--guidelines">License</a>
+</p>
+
+</div>
+
+<hr>
+
+## 🎵 About TRACE
+
+TRACE is a focused, cinematic music player for Android. It combines music discovery and streaming with Media3/ExoPlayer playback, background controls, persistent queues, and a redesigned dark-first interface centered on artwork and typography.
+
+Search real music, stream it ad-free, share a room and listen together, build playlists, and let the interface adapt to the artwork of whatever is playing.
+
+## 🛡️ Privacy-First by Design
 
 Completely local database. Absolutely zero trackers, analytics, or background
 telemetry. Temporary stream URLs are never persisted.
@@ -180,7 +198,7 @@ TRACE is an independent project created for educational and personal use purpose
 This project is licensed under the terms specified in the
 [LICENSE](LICENSE) file (GPL-3.0).
 
-TRACE is a derivative of Vivi Music 6.0.8 and preserves all upstream notices.
+TRACE incorporates and adapts open-source components and preserves applicable upstream notices.
 See [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) for the complete list, or
 open **Settings → Open-source licences** inside the app.
 
@@ -196,8 +214,8 @@ guidelines outlined in [`rules.md`](rules.md).
 
 | Channel | About | Action |
 |---|---|---|
-| 🐛 Bug Reports | Found something broken? Open a GitHub issue | [Report Bug](https://github.com/CHANGE-ME/TRACE/issues) |
-| 💡 Discussions | Share ideas, request features | [Discussions](https://github.com/CHANGE-ME/TRACE/discussions) |
+| 🐛 Bug Reports | Found something broken? Open a GitHub issue | [Report Bug](https://github.com/tracezer/Trace/issues) |
+| 💡 Discussions | Share ideas, request features | [Discussions](https://github.com/tracezer/Trace/discussions) |
 | 📖 Docs | Listen Together, updates, architecture | [`docs/`](docs/) |
 
 ---
@@ -206,8 +224,8 @@ guidelines outlined in [`rules.md`](rules.md).
 
 TRACE is built upon the foundation of amazing open-source projects and developers:
 
-- **Vivi Music** — the streaming and playback engine this project derives from.
-- **Metrolist** — the project that inspired Vivi Music.
+- **Open-source music tooling** — for discovery, stream resolution, and playback foundations.
+- **Metrolist** — the project that inspired upstream music project.
 - **InnerTube / NewPipeExtractor** — discovery and stream resolution.
 - **Media3 / ExoPlayer** — playback.
 - **Jetpack Compose & Material 3** — the UI toolkit.
