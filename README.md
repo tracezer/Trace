@@ -72,7 +72,6 @@ Seamless background playback with high-fidelity streams from YouTube Music.
 
 </div>
 
-> Screenshot order follows the supplied images. Place the six image files in `docs/screenshots/` using the filenames shown above.
 
 ---
 
