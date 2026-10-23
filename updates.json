@@ -1,0 +1,34 @@
+{
+    "_schema":  {
+                    "_purpose":  "Release feed for TRACE's in-app update check. The app fetches this file, compares versionCode with the running build, and offers the download when this file is newer.",
+                    "_where_it_lives":  "Commit this file to the repository root and serve it raw, e.g. https://raw.githubusercontent.com/<user>/<repo>/main/updates.json . Then set Trace.updateFeedUrl in gradle.properties to that URL.",
+                    "_generated_by":  "scripts/make_update_feed.ps1 - run it on each release instead of editing by hand.",
+                    "_fields":  {
+                                    "versionCode":  "int, required. Must be strictly greater than the installed build's versionCode (Trace.versionCode in gradle.properties) for the update to be offered.",
+                                    "versionName":  "string, required. Shown in the dialog title, e.g. \"2.4.0\".",
+                                    "downloadUrl":  "string, required. Direct link to the .apk. For GitHub Releases this is https://github.com/<user>/<repo>/releases/download/<tag>/<file>.apk . Aliases accepted: url, apk.",
+                                    "releaseNotes":  "string[] or a single newline-separated string. One bullet per new feature or fix, shown in the dialog and the notification. Aliases accepted: changelog, notes.",
+                                    "mandatory":  "bool, optional, default false. When true the dialog cannot be dismissed and Skip/Later are hidden.",
+                                    "_ignored":  "Any key starting with an underscore is documentation and is ignored by the parser."
+                                },
+                    "_signing":  "CRITICAL: the APK at downloadUrl must be signed with the same keystore as the installed app (Trace.release.storeFile). Android refuses an update signed with a different key, and the user would have to uninstall first, losing their playlists and likes."
+                },
+    "_release":  {
+                     "tag":  "v2.6.0",
+                     "asset":  "TRACE-2.6.0.apk",
+                     "sha256":  "a67bc6b36180fc4b129792e8968d8df6572a8816d162dc9beb82e8bd77309e15",
+                     "apkBytes":  23349002,
+                     "_note":  "Informational only - TRACE's parser ignores underscore-prefixed keys."
+                 },
+    "versionCode":  10,
+    "versionName":  "2.6.0",
+    "downloadUrl":  "https://github.com/CHANGE-ME/TRACE/releases/download/v2.6.0/TRACE-2.6.0.apk",
+    "releaseNotes":  [
+                         "New: Listen Together - create a room, share the code, and listen in sync with someone else.",
+                         "New: room chat with text, voice notes and photos.",
+                         "New: search results update while you type; the list follows the letters.",
+                         "Fix: creating a playlist no longer fails with a database constraint error.",
+                         "Only metadata is shared between listeners - each device resolves its own audio."
+                     ],
+    "mandatory":  false
+}
