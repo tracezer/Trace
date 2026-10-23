@@ -22,7 +22,7 @@
                  },
     "versionCode":  10,
     "versionName":  "2.6.0",
-    "downloadUrl":  "https://github.com/CHANGE-ME/TRACE/releases/download/v2.6.0/TRACE-2.6.0.apk",
+    "downloadUrl":  "https://github.com/Tracezer/TRACE/releases/download/v2.6.0/TRACE-2.6.0.apk",
     "releaseNotes":  [
                          "New: Listen Together - create a room, share the code, and listen in sync with someone else.",
                          "New: room chat with text, voice notes and photos.",
