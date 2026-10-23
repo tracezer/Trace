@@ -50,16 +50,29 @@ Seamless background playback with high-fidelity streams from YouTube Music.
 
 ## 📸 Screenshots
 
-| Player | Home | Search |
-|---|---|---|
-| ![Player](docs/screenshots/player.png) | ![Home](docs/screenshots/home.png) | ![Search](docs/screenshots/search.png) |
+<div align="center">
 
-| Library | Listen Together | Settings |
-|---|---|---|
-| ![Library](docs/screenshots/library.png) | ![Together](docs/screenshots/together.png) | ![Settings](docs/screenshots/settings.png) |
+### 🎧 Now Playing
+<img src="docs/screenshots/01-now-playing.jpg" alt="TRACE Now Playing screen" width="280">
 
-> Screenshots live in `docs/screenshots/`. Replace the placeholders with real
-> captures when available.
+### 🏠 Home
+<img src="docs/screenshots/02-home.jpg" alt="TRACE Home screen" width="280">
+
+### 🔍 Search
+<img src="docs/screenshots/03-search.jpg" alt="TRACE Search screen" width="280">
+
+### 🎵 Library
+<img src="docs/screenshots/04-library.jpg" alt="TRACE Library screen" width="280">
+
+### 🤝 Listen Together
+<img src="docs/screenshots/05-listen-together.jpg" alt="TRACE Listen Together screen" width="280">
+
+### ⚙️ Settings
+<img src="docs/screenshots/06-settings.jpg" alt="TRACE Settings screen" width="280">
+
+</div>
+
+> Screenshot order follows the supplied images. Place the six image files in `docs/screenshots/` using the filenames shown above.
 
 ---
 
