@@ -1,176 +1,355 @@
-It's the "What's new in this version" text that shows on the GitHub release page. People reading your repo will see it under the release title.
+put the images too 
+I can't generate real screenshots of your app — those have to come from an actual device or emulator. But I can make sure the README doesn't show broken image links until you add them.
 
-Here's a ready-to-paste version (taken from your updates.json):
+Option A — Keep placeholders (recommended): leave the table as-is. The docs/screenshots/ folder doesn't exist yet, so GitHub will show broken image icons. Once you have the app running, capture screenshots and drop them in with these exact names:
 
-TRACE 2.6.0
+docs/screenshots/player.png
+docs/screenshots/home.png
+docs/screenshots/search.png
+docs/screenshots/library.png
+docs/screenshots/together.png
+docs/screenshots/settings.png
+Then commit and push — the README will update automatically.
 
-New
-- Listen Together — create a room, share the code, and listen in sync with someone else.
-- Room chat with text, voice notes and photos.
-- Search results now update while you type; the list follows the letters.
-- Creating a playlist no longer fails with a database constraint error.
+Option B — Remove the screenshots section for now: if you'd rather not have broken images on your repo, I can delete the screenshots table from the README. Just say the word.
 
-Notes
-- Only metadata is shared between listeners — each device resolves its own audio.
-- Rooms close when everyone leaves; nothing is stored on the server.
-You can also add a short intro line at the top like:
+How to take the screenshots (when you have a device/emulator):
 
-TRACE — a cinematic Android music player (VIVI-derived, GPL-3.0).
-and paste the APK's SHA-256 at the bottom for verification:
+Run the app.
+Navigate to each screen.
+Press the device's screenshot button (Power + Volume Down on most Android devices), or use Android Studio's "Take Screenshot" in the device window.
+Rename and copy them into docs/screenshots/.
+Want me to do Option B, or would you like me to create empty placeholder PNG files so the links at least resolve?
 
-SHA-256: a67bc6b36180fc4b129792e8968d8df6572a8816d162dc9beb82e8bd77309e15
-That's all optional — the release page works fine with just a title and the attached APK. The description is purely for humans browsing the repo.
+remove the details of vivi player from readme.md
+All VIVI references are removed from README.md. Done.
 
-VIVI Music Banner
-VIVI Music
-More Than Just Music — Your Ultimate Audio Experience
-Download Latest Downloads License Support on Ko-fi
+<div align="center">
+  <a href="https://vivimusic.mkmdevilmi.workers.dev/">
+    <img src="assets/bannerofficial.png" alt="VIVI Music Banner" style="display: block; margin: 0 auto; max-width: 100%"/>
+  </a>
+  <br>
+  <h1>VIVI Music</h1>
+  <h3>More Than Just Music — Your Ultimate Audio Experience</h3>
 
-vivizzz007%2Fvivi-music | Trendshift
+  <p>
+    <a href="https://github.com/vivizzz007/vivi-music/releases">
+      <img src="https://img.shields.io/github/v/release/vivizzz007/vivi-music?label=Download&style=for-the-badge&color=4CAF50" alt="Download Latest">
+    </a>
+    <a href="https://github.com/vivizzz007/vivi-music/releases">
+      <img src="https://img.shields.io/github/downloads/vivizzz007/vivi-music/total?style=for-the-badge&color=blue" alt="Downloads">
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/vivizzz007/vivi-music?style=for-the-badge" alt="License">
+    </a>
+    <a href="https://ko-fi.com/vividhpashokan">
+      <img src="https://img.shields.io/badge/Support-Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi">
+    </a>
+  </p>
 
-vivizzz007%2Fvivi-music | Trendshift    vivizzz007%2Fvivi-music | Trendshift
+  <p align="center">
+    <a href="https://trendshift.io/repositories/17110?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-17110" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/17110" alt="vivizzz007%2Fvivi-music | Trendshift" width="250" height="55"/></a>
+  </p>
+  <p align="center">
+    <a href="https://trendshift.io/repositories/17110?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-17110" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/17110/daily?language=Kotlin" alt="vivizzz007%2Fvivi-music | Trendshift" width="250" height="55"/></a>
+    &nbsp;&nbsp;
+    <a href="https://trendshift.io/repositories/17110?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-17110" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/17110/weekly?language=Kotlin" alt="vivizzz007%2Fvivi-music | Trendshift" width="250" height="55"/></a>
+  </p>
 
-🎵 About VIVI
-✨ VIVI isn't just another music player — it's a premium, modern audio ecosystem engineered for listeners who demand more. Powered by a responsive design engine that dynamically matches your album art's color palette, VIVI completely shifts to match your aesthetic on every single beat.
+</div>
 
-From stunning animated canvas visualizers to fluid physics-based micro-animations, every interaction is crafted to elevate your listening. Stream ad-free, sync karaoke lyrics, share your sound instantly, and enjoy an elegant interface designed with modern Material 3 guidelines.
+<hr>
 
-🎵 Your music, your aesthetic — only with VIVI.
-🛡️ 100% Privacy-First
-Completely local database. Absolutely zero trackers, analytics, or background telemetry.
+<h2>🎵 About VIVI</h2>
 
-🎨 Material You Engine
-Stunning adaptive interface that dynamically morphs colors based on what's playing.
+<table align="center" width="100%">
+  <tr valign="middle">
+    <td width="60%" align="left">
+      <p>✨ <b>VIVI</b> isn't just another music player — it's a premium, modern audio ecosystem engineered for listeners who demand more. Powered by a responsive design engine that dynamically matches your album art's color palette, VIVI completely shifts to match your aesthetic on every single beat.</p>
+      <p>From stunning animated canvas visualizers to fluid physics-based micro-animations, every interaction is crafted to elevate your listening. Stream ad-free, sync karaoke lyrics, share your sound instantly, and enjoy an elegant interface designed with modern Material 3 guidelines.</p>
+      <blockquote>
+        <b>🎵 Your music, your aesthetic — only with VIVI.</b>
+      </blockquote>
+    </td>
+    <td width="40%" align="center">
+      <p>🛡️ <b>100% Privacy-First</b><br><small>Completely local database. Absolutely zero trackers, analytics, or background telemetry.</small></p>
+      <hr width="80%">
+      <p>🎨 <b>Material You Engine</b><br><small>Stunning adaptive interface that dynamically morphs colors based on what's playing.</small></p>
+      <hr width="80%">
+      <p>🚀 <b>Ad-Free Streaming</b><br><small>Seamless background playback with high-fidelity streams from YouTube Music.</small></p>
+    </td>
+  </tr>
+</table>
 
-🚀 Ad-Free Streaming
-Seamless background playback with high-fidelity streams from YouTube Music.
+<hr>
 
-📸 Screenshots
-Player
+<h2>📸 Screenshots</h2>
 
-Player Screen 1	Player
+<table align="center">
+  <tr valign="top">
+    <td align="center">
+      <b>Player</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/1.png?raw=true" width="220" alt="Player Screen 1" />
+    </td>
+    <td align="center">
+      <b>Player</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/2.png?raw=true" width="220" alt="Player Screen 2" />
+    </td>
+    <td align="center">
+      <b>Artist Screen</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/3.png?raw=true" width="220" alt="Artist Screen" />
+    </td>
+  </tr>
+  <tr valign="top">
+    <td align="center">
+      <b>Album Page</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/4.png?raw=true" width="220" alt="Album Page" />
+    </td>
+    <td align="center">
+      <b>Search Section</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/5.png?raw=true" width="220" alt="Search Section" />
+    </td>
+    <td align="center">
+      <b>Home Page</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/6.png?raw=true" width="220" alt="Home Page" />
+    </td>
+  </tr>
+  <tr valign="top">
+    <td align="center">
+      <b>Built-in Updater</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/7.png?raw=true" width="220" alt="Built-in Updater" />
+    </td>
+    <td align="center">
+      <b>Audio Control Section</b><br><br>
+      <img src="https://github.com/vivizzz007/vivi-music/blob/main/NEW-UI/8.png?raw=true" width="220" alt="Audio Control Section" />
+    </td>
+    <td></td>
+  </tr>
+</table>
 
-Player Screen 2	Artist Screen
+<hr>
 
-Artist Screen
-Album Page
+<h2>✨ Features</h2>
 
-Album Page	Search Section
+<table align="center" width="100%">
+  <tr valign="top">
+    <td width="50%">
+      <h3>🎨 Expressive UI & Design</h3>
+      <ul>
+        <li><b>Dynamic Material You:</b> Beautiful adaptive colors that shift to match your playing album art.</li>
+        <li><b>Premium Animations:</b> Silky-smooth micro-animations and seamless screen transitions.</li>
+        <li><b>Modern Architecture:</b> Sleek, modern layouts engineered with Android's latest Material 3 guidelines.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🎵 Advanced Streaming</h3>
+      <ul>
+        <li><b>Full Catalog Integration:</b> Stream any song from YouTube and YT Music, completely ad-free.</li>
+        <li><b>Animated Canvas:</b> Stunning Apple Music-style animated backdrops that bring music to life.</li>
+        <li><b>Background Playback:</b> High-quality continuous playback with full notification drawer controls.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="50%">
+      <h3>📝 Synced Lyrics & Audio</h3>
+      <ul>
+        <li><b>Karaoke Syncing:</b> Beautiful, precise word-by-word highlighted lyrics.</li>
+        <li><b>Integrated EQ:</b> High-fidelity audio customization with an in-app Equalizer.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>📥 Offline Experience</h3>
+      <ul>
+        <li><b>Local Downloads:</b> Download and cache tracks onto your device for offline enjoyment.</li>
+        <li><b>Smart Storage:</b> Intelligent cache management that optimizes space automatically.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="50%">
+      <h3>🔄 OTA Updater</h3>
+      <ul>
+        <li><b>Seamless Updates:</b> Instant Over-the-Air updates directly inside the app.</li>
+        <li><b>Direct Delivery:</b> Always stay ahead with instant feature upgrades and patch fixes.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🛡️ 100% Privacy</h3>
+      <ul>
+        <li><b>Zero Data Collection:</b> No trackers, no telemetry, and no telemetry analytics.</li>
+        <li><b>Local Security:</b> All user libraries, preferences, and downloaded tracks are stored locally.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-Search Section	Home Page
+<br>
 
-Home Page
-Built-in Updater
+<hr>
 
-Built-in Updater	Audio Control Section
+<div align="center">
+  <table border="0" cellpadding="15" cellspacing="0" width="85%">
+    <tr>
+      <td align="center">
+        <h3>💖 Support the Project</h3>
+        <p>If you love VIVI Music and want to support its maintenance and active development, please consider buying me a coffee! Your support helps keep this premium audio experience completely active, clean, and ad-free.</p>
+        <br>
+        <a href="https://ko-fi.com/vividhpashokan">
+          <img src="https://img.shields.io/badge/Support-Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-Audio Control Section	
-✨ Features
-🎨 Expressive UI & Design
-Dynamic Material You: Beautiful adaptive colors that shift to match your playing album art.
-Premium Animations: Silky-smooth micro-animations and seamless screen transitions.
-Modern Architecture: Sleek, modern layouts engineered with Android's latest Material 3 guidelines.
-🎵 Advanced Streaming
-Full Catalog Integration: Stream any song from YouTube and YT Music, completely ad-free.
-Animated Canvas: Stunning Apple Music-style animated backdrops that bring music to life.
-Background Playback: High-quality continuous playback with full notification drawer controls.
-📝 Synced Lyrics & Audio
-Karaoke Syncing: Beautiful, precise word-by-word highlighted lyrics.
-Integrated EQ: High-fidelity audio customization with an in-app Equalizer.
-📥 Offline Experience
-Local Downloads: Download and cache tracks onto your device for offline enjoyment.
-Smart Storage: Intelligent cache management that optimizes space automatically.
-🔄 OTA Updater
-Seamless Updates: Instant Over-the-Air updates directly inside the app.
-Direct Delivery: Always stay ahead with instant feature upgrades and patch fixes.
-🛡️ 100% Privacy
-Zero Data Collection: No trackers, no telemetry, and no telemetry analytics.
-Local Security: All user libraries, preferences, and downloaded tracks are stored locally.
+<br>
 
-💖 Support the Project
-If you love VIVI Music and want to support its maintenance and active development, please consider buying me a coffee! Your support helps keep this premium audio experience completely active, clean, and ad-free.
+<hr>
 
+<h2>🚗 Android Auto Setup</h2>
 
-Support on Ko-fi
+<p>If VIVI Music doesn't appear in Android Auto:</p>
 
-🚗 Android Auto Setup
-If VIVI Music doesn't appear in Android Auto:
+<ol>
+  <li>Open <strong>Android Auto</strong> on your phone</li>
+  <li>Tap the <strong>hamburger menu</strong> (three lines) and go to <strong>Settings</strong></li>
+  <li>Scroll to the bottom and tap the <strong>version number</strong> multiple times to enable Developer Settings</li>
+  <li>Tap the <strong>three dots menu</strong> (⋮) at the top-right</li>
+  <li>Select <strong>Developer settings</strong></li>
+  <li>Enable <strong>Unknown sources</strong></li>
+  <li>Restart Android Auto and connect to your car</li>
+</ol>
 
-Open Android Auto on your phone
-Tap the hamburger menu (three lines) and go to Settings
-Scroll to the bottom and tap the version number multiple times to enable Developer Settings
-Tap the three dots menu (⋮) at the top-right
-Select Developer settings
-Enable Unknown sources
-Restart Android Auto and connect to your car
-🤝 Contributing
-Contributions are welcome! Whether it's bug reports, feature requests, or code contributions:
+<hr>
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-🛡️ Privacy & Data Collection
-At VIVI Music, your privacy is our top priority. We believe that your music and data belong exclusively to you.
+<h2>🤝 Contributing</h2>
 
-Zero Data Collection: We do not collect, store, or share any of your personal information, usage habits, or listening history.
-100% Local: All your settings, downloaded tracks, and offline caches are stored securely on your device.
-No Tracking: There are no hidden trackers, analytics, or background services monitoring your activity.
-Enjoy your music with complete peace of mind, knowing that your privacy is fully protected.
+<p>Contributions are welcome! Whether it's bug reports, feature requests, or code contributions:</p>
 
-📜 Disclaimer
-This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any way associated with YouTube, Google LLC, or any of their affiliates and subsidiaries.
+<ol>
+  <li>Fork the repository</li>
+  <li>Create your feature branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
+  <li>Commit your changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
+  <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>)</li>
+  <li>Open a Pull Request</li>
+</ol>
 
-Any trademark, service mark, trade name, or other intellectual property rights used in this project are owned by their respective owners.
+<hr>
 
-VIVI Music is an independent project created for educational and personal use purposes.
+<h2>🛡️ Privacy & Data Collection</h2>
 
-📄 License & Guidelines
-This project is licensed under the terms specified in the LICENSE (GPL-3.0) file.
+<p>At <strong>VIVI Music</strong>, your privacy is our top priority. We believe that your music and data belong exclusively to you.</p>
 
-If you copy, adapt, or reuse any part of the source code, you must adhere to the guidelines outlined in the rules.md file.
+<ul>
+  <li><strong>Zero Data Collection:</strong> We do <strong>not</strong> collect, store, or share any of your personal information, usage habits, or listening history.</li>
+  <li><strong>100% Local:</strong> All your settings, downloaded tracks, and offline caches are stored securely on your device.</li>
+  <li><strong>No Tracking:</strong> There are no hidden trackers, analytics, or background services monitoring your activity.</li>
+</ul>
 
-🌐 Community & Support
-Connect · Collaborate · Contribute
+<p>Enjoy your music with complete peace of mind, knowing that your privacy is fully protected.</p>
 
+<hr>
 
-Channel	About	Action
-✈️ Telegram	Chat with fellow music lovers, get support & stay updated	Telegram
-🐛 Bug Reports	Found something broken? Help us fix it by opening a GitHub issue	Report Bug
-💡 Discussions	Share ideas, request features & spark community conversations	Discussions
-🙏 Special Thanks & Credits
-VIVI Music is built upon the foundation of amazing open-source projects and developers:
+<h2>📜 Disclaimer</h2>
+
+<p>This project and its contents are <strong>not affiliated with, funded, authorized, endorsed by, or in any way associated with</strong> YouTube, Google LLC, or any of their affiliates and subsidiaries.</p>
+
+<p>Any trademark, service mark, trade name, or other intellectual property rights used in this project are owned by their respective owners.</p>
+
+<p><strong>VIVI Music</strong> is an independent project created for educational and personal use purposes.</p>
+
+<hr>
+
+<h2>📄 License & Guidelines</h2>
+<p>This project is licensed under the terms specified in the <a href="LICENSE">LICENSE</a> (GPL-3.0) file.</p>
+<p>If you copy, adapt, or reuse any part of the source code, you must adhere to the guidelines outlined in the <a href="rules.md">rules.md</a> file.</p>
 
 
-💡 Special Thanks
-Mostafa Alagamy – Creator of Metrolist, the project that inspired VIVI Music. Huge thanks for the foundation and open-source contributions! 🌟
-@Zemer – Huge congratulations and thanks for inventing the new playback method! 🎉
-🎖️ Foundational Projects
-AM-Lyrics – For the powerful synced TTML lyrics integration from Binimum.
-Better Lyrics – For beautiful synced lyrics and YouTube Music integration.
-YouLyPlus – For smooth in-app lyrics styling.
-Unison – For the premium Apple Music-style visualizer canvas.
-SponsorBlock – For automatic skipping of sponsored and non-music segments.
+<hr>
 
-The open-source community for tools, libraries, and APIs that make this project possible.
+<div align="center">
 
-Thank you to all the amazing developers who made this project possible!
+  <h2>🌐 Community &amp; Support</h2>
+  <p><i>Connect · Collaborate · Contribute</i></p>
+  <br>
 
-Made with ❤️ for music lovers everywhere
+  <table border="0" cellpadding="14" cellspacing="0" width="88%">
+    <tr>
+      <th align="left">Channel</th>
+      <th align="left">About</th>
+      <th align="center">Action</th>
+    </tr>
+    <tr>
+      <td><b>✈️ Telegram</b></td>
+      <td>Chat with fellow music lovers, get support &amp; stay updated</td>
+      <td align="center">
+        <a href="https://t.me/+Nen-QpiY0tk1OTE9">
+          <img src="https://img.shields.io/badge/Join%20Now-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>🐛 Bug Reports</b></td>
+      <td>Found something broken? Help us fix it by opening a GitHub issue</td>
+      <td align="center">
+        <a href="https://github.com/vivizzz007/vivi-music/issues">
+          <img src="https://img.shields.io/badge/Report-EA4335?style=flat-square&logo=github&logoColor=white" alt="Report Bug">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>💡 Discussions</b></td>
+      <td>Share ideas, request features &amp; spark community conversations</td>
+      <td align="center">
+        <a href="https://github.com/vivizzz007/vivi-music/discussions">
+          <img src="https://img.shields.io/badge/Discuss-6e40c9?style=flat-square&logo=github&logoColor=white" alt="Discussions">
+        </a>
+      </td>
+    </tr>
 
-⭐ Star this repo if you enjoy VIVI Music! (i also want this type )
-Done — README.md rewritten in the VIVI Music style, but truthful to what TRACE actually is:
+  </table>
 
-Centered banner with title/tagline and badges (License, Platform, Kotlin, minSdk)
-About, Privacy-First, Theme Studio, Ad-Free Streaming sections
-Screenshots table (placeholder images in docs/screenshots/ — swap in real captures)
-Feature list grouped by UI / Streaming / Listen Together / Playlists / Search / Offline / Updater / Privacy
-Android Auto setup, Contributing, Privacy, Disclaimer, License, Community & Support table, Credits, footer
-A couple of things to fill in later:
+</div>
 
-Replace CHANGE-ME/TRACE in the Community links with your real username/TRACE.
-Add real screenshots to docs/screenshots/ (player.png, home.png, search.png, library.png, together.png, settings.png).
+<hr>
+
+<div align="center">
+
+  <h2>🙏 Special Thanks & Credits</h2>
+
+  <p>VIVI Music is built upon the foundation of amazing open-source projects and developers:</p>
+  <br>
+
+  <table border="0" cellpadding="10" cellspacing="0" width="90%">
+    <tr valign="top">
+      <td width="40%" align="left">
+        <b>💡 Special Thanks</b>
+        <ul>
+          <li><strong><a href="https://github.com/mostafaalagamy">Mostafa Alagamy</a></strong> – Creator of <a href="https://github.com/mostafaalagamy/Metrolist">Metrolist</a>, the project that inspired VIVI Music. Huge thanks for the foundation and open-source contributions! 🌟</li>
+          <li><strong><a href="https://github.com/ZemerTeam/zemer-cipher">@Zemer</a></strong> – Huge congratulations and thanks for inventing the new playback method! 🎉</li>
+        </ul>
+      </td>
+      <td width="60%" align="left">
+        <b>🎖️ Foundational Projects</b>
+        <ul>
+          <li><strong><a href="https://github.com/binimum/am-lyrics">AM-Lyrics</a></strong> – For the powerful synced TTML lyrics integration from Binimum.</li>
+          <li><strong><a href="https://github.com/better-lyrics/better-lyrics">Better Lyrics</a></strong> – For beautiful synced lyrics and YouTube Music integration.</li>
+          <li><strong><a href="https://github.com/ibratabian17/YouLyPlus">YouLyPlus</a></strong> – For smooth in-app lyrics styling.</li>
+          <li><strong><a href="https://github.com/better-lyrics/unison">Unison</a></strong> – For the premium Apple Music-style visualizer canvas.</li>
+          <li><strong><a href="https://github.com/ajayyy/SponsorBlock">SponsorBlock</a></strong> – For automatic skipping of sponsored and non-music segments.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  <p align="center">The open-source community for tools, libraries, and APIs that make this project possible.</p>
+  <p align="center"><strong>Thank you to all the amazing developers who made this project possible!</strong></p>
+  <hr width="60%">
+  <p align="center"><strong>Made with ❤️ for music lovers everywhere</strong></p>
+  <p align="center">⭐ Star this repo if you enjoy VIVI Music!</p>
+</div>
 Done — README.md is now in VIVI's style (centered banner, badges, two-column About table, screenshots table, feature tables, support box, Android Auto, contributing, privacy, disclaimer, license, community table, credits, footer) but branded for TRACE and listing only TRACE's real features.
 
 The screenshots table points at docs/screenshots/*.png — drop your captures there with those names and they'll render. All CHANGE-ME/TRACE links need your real GitHub username once you create the repo.
